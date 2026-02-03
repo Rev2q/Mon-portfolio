@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Mon Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+  <div id="site"> <!-- DIV 1 -->
+
+    <!-- DIV 2 : Menu -->
+    <div id="menu">
+      <ul>
+        <li><a href="#accueil"><i class="fas fa-home"></i> Accueil</a></li>
+        <li><a href="#profile"><i class="fas fa-user"></i> Profil</a></li>
+        <li><a href="#projets"><i class="fas fa-lightbulb"></i> Projets</a></li>
+        <li><a href="#experience"><i class="fas fa-briefcase"></i> Expériences</a></li>
+        <li><a href="#contact"><i class="fas fa-envelope"></i> Contact</a></li>
+      </ul>
+    </div>
+
+    <!-- DIV 3 : Titre -->
+    <div class="bloc">
+      <h1>Bienvenue sur mon portfolio personnel</h1>
+      <p>Découvrez mon parcours, mes projets et mes ambitions professionnelles.</p>
+      <img src="imagez/rn.jpg" alt="Profil" width="100%">
+    </div>
+
+    <!-- DIV 4 : Accueil -->
+    <div id="accueil" class="bloc">
+      <h2> Accueil</h2>
+      <p>Bienvenue sur ma page personnelle de présentation. Passionné par le numérique et les projets communautaires.</p>
+      <img src="imagez/rm.jpg" alt="Accueil" width="100%">
+    </div>
+
+    <!-- DIV 5 : Profil -->
+    <div id="profile" class="bloc cartes">
+      <div class="carte"><h3>Biographie</h3><p>Texte sur la biographie.</p>
+           <img src="imagez/rp.jpg" alt="Biographie" width="100%">
+      </div>
+      <div class="carte"><h3>Parcours de vie</h3><p>Texte sur le parcours.</p>
+           <img src="imagez/ri.jpg" alt="Parcours de vie" width="100%">
+      </div>
+      <div class="carte"><h3>Éducation</h3><p>Texte sur l'éducation.</p>
+           <img src="imagez/rt.jpg" alt="Education" width="100%">
+      </div>
+      <div class="carte"><h3>Loisirs</h3><p>Texte sur les loisirs.</p>
+           <img src="imagez/rl.jpg" alt="loisirs" width="100%">
+      </div>
+    </div>
+
+    <!-- DIV 6 : Expérience -->
+    <div id="experience" class="bloc colonnes">
+      <div class="colonne"><h3>Volontariat</h3><p>Description ici.</p>
+           <img src="imagez/youth1.jpg" alt="vol1" width="100%">
+           <img src="imagez/mybn.jpg" alt="vol2" width="100%">
+           <img src="imagez/assocg.jpg" alt="vol3" width="100%">
+      </div>
+      <div class="colonne"><h3>Stage</h3><p>Description ici.</p>
+           <img src="imagez/st.jpg" alt="sta1" width="100%">
+           <img src="imagez/st2.jpg" alt="sta2" width="100%">
+      </div>
+      <div class="colonne"><h3>Intérimaire</h3><p>Description ici.</p></div>
+      <div class="colonne"><h3>CDI</h3><p>Description ici.</p></div>
+    </div>
+
+    <!-- DIV 7 : Projets -->
+    <div id="projets" class="bloc cartes">
+      <div class="carte"><h3>À court terme</h3><p>Objectifs rapides.</p>
+           <img src="imagez/pr1.jpg" alt="pro1" width="100%">
+           <img src="imagez/pr2.jpg" alt="pro2" width="100%">
+      </div>
+      <div class="carte"><h3>À long terme</h3><p>Objectifs futurs.</p>
+           <img src="imagez/prr2.jpg" alt="prm1" width="100%">
+           <img src="imagez/yter.jpg" alt="prm2" width="100%">
+      </div>
+    </div>
+
+    <!-- DIV 8 : Contact -->
+    <div id="contact" class="bloc colonnes">
+      <div class="colonne">
+          <i class="fas fa-phone"></i><p><b>Téléphone:</b>+261 34 73 722 80</p>
+          <i class="fab fa-whatsapp"></i><p><b>WhatsApp:</b>+261 32 39 245 67</p>
+          <i class="fab fa-linkedin"></i><p><b>LinkedIn:</b></p
+          <i class="fas fa-envelope"></i><p><b>Email:</b>mfaly40@gmail.com</p>
+      </div>
+
+      <form id="formulaire-contact">
+        <input type="text" placeholder="Votre nom" required>
+        <input type="email" placeholder="Votre email" required>
+        <textarea placeholder="Votre message..." rows="4" required></textarea>
+        <button type="submit">Envoyer</button>
+      </form>
+    </div>
+
+    <!-- DIV 9 : Footer -->
+    <div id="footer">
+          <footer id="site" class="bloc">
+             <p>&copy; 2025 - Nordine Marc Johanes. Tous droits réservés.</p>
+          </footer>
+    </div>
+    <!-- Bouton retour haut -->
+    <a href="#site" id="retour-haut"><i class="fas fa-arrow-up"></i></a>
+
+  </div>
+</body>
+</html>
